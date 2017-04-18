@@ -1,0 +1,51 @@
+---
+layout: page
+title:  "Creating Posts"
+permalink: posts
+---
+[Back](/getting-started)
+
+* [Creating a new post file](#new-file)
+* [Front Matter](#front-matter)
+* [Adding images](#images)
+
+<h4 id="new-file">Creating a new post file</h4>
+Since Jekyll was originally used as blog software, the default behavior for pages on your site mimic this. You'll see this with our "posts" folder. Open up this folder and you'll see two things:
+Today's date begins the post entry. This has an effect on how posts/pages are ordered.
+The extension used is .md or .markdown. This extension indicates that the file is in Markdown Format.
+
+<img src="/img/directory.png">
+
+h4 id="front-matter">Front Matter</h4>
+Open up the post in the directory with your text editor. Each post you create should have some front matter. This defines certain aspects of the page including (most importantly) what page layout to use. Can also include information like permalinks & page title. Front matter should be sandwiched between three little dashes. Go ahead and try adding a permalink to your front matter for this post as I've done in the example below:
+
+{% highlight markdown %}
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2017-04-05 15:35:40 -0500
+categories: jekyll update
+permalink: welcome-to-jekyll
+---
+{% endhighlight %}
+
+<h4 id="images">Adding Images</h4>
+If you want to add images or other media to your Jekyll site, you'll need to create a folder in your jekyll site directory. The folder should be on the same level as your _posts folder. The name of the folder does not matter unless you are using a plugin or theme which requires a specific name but it's a good idea to use something descriptive like images, img or assets. Once you have your image folder, you can refer to an image using Markdown:
+
+{% highlight markdown %}
+![alt text for my image](/images/my-image.jpg "Title of my image")
+{% endhighlight %}
+
+Or HTML:
+{% highlight html %}
+<img src="/images/my-image.jpg">Title of my image</img>
+{% endhighlight %}
+
+And now, you're set to create a basic Jekyll post! For new posts, you'll need to:
+* Create a new .md file in your _posts folder using the date_title method of naming your file. 
+* Add front matter to the post
+* Start your post writing using Markdown and/or HTML
+
+From here, you may want to learn more about themes, layouts and includes for Jekyll sites, which you can do on [Allan's site](https://allanberry.github.io/).
+
+[Github Pages](/github-pages)

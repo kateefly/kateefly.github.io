@@ -1,10 +1,9 @@
 ---
 layout: page
-title:  "Creating Posts"
+title:  "4. Creating Posts"
 permalink: posts
+number: 4
 ---
-[Back](/getting-started)
-
 * [Creating a new post file](#new-file)
 * [Front Matter](#front-matter)
 * [Adding images](#images)
@@ -48,4 +47,4 @@ And now, you're set to create a basic Jekyll post! For new posts, you'll need to
 
 From here, you may want to learn more about themes, layouts and includes for Jekyll sites, which you can do on [Allan's site](https://allanberry.github.io/).
 
-[Github Pages](/github-pages)
+[5. Github Pages](/github-pages)

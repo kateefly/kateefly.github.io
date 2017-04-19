@@ -1,10 +1,9 @@
 ---
 layout: page
-title:  "Getting Started with Jekyll"
+title:  "3. Getting Started with Jekyll"
 permalink: getting-started
+number: 3
 ---
-[Back](/jekyll-install)
-
 Before you get started don't forget that you'll need to have Ruby installed first!
 
 Open up Terminal or the Command Line and type in:
@@ -46,4 +45,4 @@ If you navigate back to your site folder, you'll notice that two more folders go
 
 The first folder contains the cache for the CSS used for your site. The second folder contains the built version of your site. <strong> Do not modify these folders!</strong> They are automatically generated and changing them could cause your site to break.
 
-[Creating Posts](/posts)
+[4. Creating Posts](/posts)

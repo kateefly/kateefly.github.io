@@ -1,10 +1,9 @@
 ---
 layout: page
-title:  "Github Pages"
+title:  "5. Github Pages"
 permalink: github-pages
+number: 5
 ---
-[Back](/posts)
-
 Github Pages lets you create and host your own blog or website directly from a Github repository. If you're using a Windows machine, you'll need to have [Github for Windows](https://desktop.github.com/) installed. You'll also need to sign up for a Github account. You can have up to one page per free account.
 
 Github's [Creating a Github Page](https://pages.github.com/) guide gives you step-by-step instructions on how you can get started doing this.

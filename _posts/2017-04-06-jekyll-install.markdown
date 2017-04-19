@@ -1,10 +1,9 @@
 ---
 layout: page
-title:  "Installing Jekyll"
+title:  "2. Installing Jekyll"
 permalink: jekyll-install
+number: 2
 ---
-[Back](/jekyll-intro)
-
 * [What's required for Jekyll](#required)
 * [Useful to know about](#useful-know)
 * [Resources](#resources)
@@ -24,8 +23,6 @@ Markdown is a text to HTML converter. Jekyll lets you write your pages in Markdo
 Markdown allows you to encode a page in way that is a bit simpler than HTML (no need to close out brackets for example). For example of how this looks, take look at how this page is encoded:
 
 {% highlight markdown %}
-[Back](/jekyll-intro)
-
 * [What's required for Jekyll](#required)
 * [Useful to know about](#useful-know)
 * [Resources](#resources)
@@ -56,4 +53,4 @@ Allan has done a great walkthrough of installing Jekyll on a Mac that can be fou
 
 If you are using Windows, I highly recommend [this guide](https://labs.sverrirs.com/jekyll/) by Sverrir Sigmundarson.
 
-[Getting Started](/getting-started)
+[3. Getting Started](/getting-started)

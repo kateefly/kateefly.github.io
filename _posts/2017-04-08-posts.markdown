@@ -28,6 +28,27 @@ permalink: welcome-to-jekyll
 ---
 {% endhighlight %}
 
+You can also add parameters or collections to your front matter that can be used in your site navigation or posts to help refer to that page.
+
+In the front matter for this page, I've added a parameter for number. 
+
+{% highlight markdown %}
+---
+layout: page
+title:  "4. Creating Posts"
+permalink: posts
+number: 4
+---
+{% endhighlight %}
+
+This parameter can then used in the links that appear in site navigation as a shortcode to refer back to this page:
+
+{% highlight markdown %}
+<a class="page-link" href="{ { post.url | relative_url } }">{ { post.number | escape } }</a></li>
+{% endhighlight %}
+
+Please do note that for this example, the spaces that appear in between curly brackets should <strong>not</strong> appear in the working code for your Jekyll site. The spaces here are simply to aid display.
+
 <h4 id="images">Adding Images</h4>
 If you want to add images or other media to your Jekyll site, you'll need to create a folder in your jekyll site directory. The folder should be on the same level as your _posts folder. The name of the folder does not matter unless you are using a plugin or theme which requires a specific name but it's a good idea to use something descriptive like images, img or assets. Once you have your image folder, you can refer to an image using Markdown:
 

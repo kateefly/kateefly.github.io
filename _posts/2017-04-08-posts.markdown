@@ -15,7 +15,7 @@ The extension used is .md or .markdown. This extension indicates that the file i
 
 <img src="/img/directory.png">
 
-h4 id="front-matter">Front Matter</h4>
+<h4 id="front-matter">Front Matter</h4>
 Open up the post in the directory with your text editor. Each post you create should have some front matter. This defines certain aspects of the page including (most importantly) what page layout to use. Can also include information like permalinks & page title. Front matter should be sandwiched between three little dashes. Go ahead and try adding a permalink to your front matter for this post as I've done in the example below:
 
 {% highlight markdown %}

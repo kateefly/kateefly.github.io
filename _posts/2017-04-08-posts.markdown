@@ -15,7 +15,7 @@ The extension used is .md or .markdown. This extension indicates that the file i
 
 <img src="/img/directory.png">
 
-h4 id="front-matter">Front Matter</h4>
+<h4 id="front-matter">Front Matter</h4>
 Open up the post in the directory with your text editor. Each post you create should have some front matter. This defines certain aspects of the page including (most importantly) what page layout to use. Can also include information like permalinks & page title. Front matter should be sandwiched between three little dashes. Go ahead and try adding a permalink to your front matter for this post as I've done in the example below:
 
 {% highlight markdown %}
@@ -24,7 +24,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-04-05 15:35:40 -0500
 categories: jekyll update
-permalink: welcome-to-jekyll
+permalink: first-page
 ---
 {% endhighlight %}
 
@@ -66,6 +66,6 @@ And now, you're set to create a basic Jekyll post! For new posts, you'll need to
 * Add front matter to the post
 * Start your post writing using Markdown and/or HTML
 
-From here, you may want to learn more about themes, layouts and includes for Jekyll sites, which you can do on [Allan's site](https://allanberry.github.io/).
+From here, you may want to learn more about themes, layouts and includes for Jekyll sites, which you can do on [Allan's site](https://allanberry.github.io/2017/04/25/lets-play-with-themes.html).
 
 [5. Github Pages](/github-pages)

@@ -5,12 +5,17 @@ permalink: jekyll-install
 number: 2
 ---
 * [What's required for Jekyll](#required)
-* [Useful to know about](#useful-know)
 * [Resources](#resources)
+* [Useful to know about](#useful-know)
 
 <h3 id="required">What's required for Jekyll</h3>
 * [Ruby 2.0+](https://www.ruby-lang.org/en/)
 * Text editor ([Atom](https://atom.io/), [Notepad++](https://notepad-plus-plus.org/))
+
+<h3 id="resources">Resources</h3>
+Allan has done a great walkthrough of installing Jekyll on a Mac that can be found [here](https://allanberry.github.io/2017/04/04/install-ruby-jekyll-github-pages.html).
+
+If you are using Windows, I highly recommend [this guide](https://labs.sverrirs.com/jekyll/) by Sverrir Sigmundarson.
 
 <h3 id="useful-know">Useful to know about </h3>
 #### [Liquid](https://shopify.github.io/liquid/)
@@ -24,12 +29,17 @@ Markdown allows you to encode a page in way that is a bit simpler than HTML (no 
 
 {% highlight markdown %}
 * [What's required for Jekyll](#required)
+* [Installation Resources](#resources)
 * [Useful to know about](#useful-know)
-* [Resources](#resources)
 
 <h3 id="required">What's required for Jekyll</h3>
 * [Ruby 2.0+](https://www.ruby-lang.org/en/)
 * Text editor ([Atom](https://atom.io/), [Notepad++](https://notepad-plus-plus.org/))
+
+<h3 id="resources">Installation Resources</h3>
+Allan has done a great walkthrough of installing Jekyll on a Mac that can be found [here](https://allanberry.github.io/2017/04/04/install-ruby-jekyll-github-pages.html).
+
+If you are using Windows, I highly recommend [this guide](https://labs.sverrirs.com/jekyll/) by Sverrir Sigmundarson.
 
 <h3 id="useful-know">Useful to know about </h3>
 #### [Liquid](https://shopify.github.io/liquid/)
@@ -37,7 +47,7 @@ Markdown allows you to encode a page in way that is a bit simpler than HTML (no 
 Liquid is a templating engine. You'll notice when it's in use from the curly braces it uses.
 
 #### [Markdown](https://daringfireball.net/projects/markdown/basics)
-Markdown is a text to HTML converter. Jekyll lets you write your pages in Markdown and/or classic HTML.
+Markdown is a text to HTML converter. Jekyll lets you write your pages in Markdown and/or classic HTML
 
 Markdown allows you to encode a page in way that is a bit simpler than HTML (no need to close out brackets for example). For example of how this looks, take look at how this page is encoded:
 {% endhighlight %}
@@ -48,9 +58,6 @@ You'll notice the following differences between the encoding for this page and s
 * Links don't require a tags + an href attribute. Instead, you're first putting your link text in square brackets followed by your link in partheneses
 * Lastly, there's no need for p tags! Just type out your text. 
 
-<h3 id="resources">Resources</h3>
-Allan has done a great walkthrough of installing Jekyll on a Mac that can be found [here](https://allanberry.github.io/2017/04/04/install-ruby-jekyll-github-pages.html).
-
-If you are using Windows, I highly recommend [this guide](https://labs.sverrirs.com/jekyll/) by Sverrir Sigmundarson.
+Markdown has also been extended for use with other platforms like Github. Find out more about Github flavored markdown [here](https://guides.github.com/features/mastering-markdown/).
 
 [3. Getting Started](/getting-started)
